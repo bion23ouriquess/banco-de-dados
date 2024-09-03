@@ -23,7 +23,7 @@ ADD COLUMN fornecedor_id INT,
 ADD FOREIGN KEY (fornecedor_id)
 REFERENCES fornecedor (id_fornecedor);
 
-ALTER TABLE peca
+ALTER TABLE peca /*Alterar a table, adicionar uma coluna a table */
 ADD COLUMN categoria_id INT,
 ADD FOREIGN KEY (categoria_id)
 REFERENCES categoria (id_categoria);
